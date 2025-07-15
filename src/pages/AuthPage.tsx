@@ -61,9 +61,7 @@ const AuthPage: React.FC = () => {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         <div className="text-center">
-          <div className="mx-auto w-12 h-12 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mb-4">
-            <span className="text-white font-bold text-lg">NF</span>
-          </div>
+          <img src="/logo.png" alt="Logo" className="mx-auto w-16 h-16 object-contain mb-4 rounded-lg shadow" />
           <h2 className="text-3xl font-bold text-gray-900">
             {isLogin ? 'Sign in to your account' : 'Create your account'}
           </h2>
